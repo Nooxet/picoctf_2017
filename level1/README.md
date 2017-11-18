@@ -128,3 +128,65 @@ The flag is
 `08c0c2008f63cd44596dc13be08dd3ac`
 
 ---
+
+# Misc
+
+## Internet Kitties
+Just connect to the service
+
+`nc shell2017.picoctf.com 43099`
+
+The flag is
+
+`3f6cd68a982d8f0b72b04faf389e6a51`
+
+---
+
+## Piazza
+Create an account at Piazza...
+
+The flag is
+
+`ask_and_hop3fully_we_can_help`
+
+---
+
+## Leaf of the Tree
+Just follow the trunk folders
+
+The flag is
+
+`88636e09e72bafb444e7f6a8105dbc5d`
+
+---
+
+## looooong
+Create a python script that generates the desired output.
+
+The flag is
+
+`with_some_recognition_and_training_delusions_become_glimpses_fbafb1011720def036b5aa32671f3710`
+
+---
+
+## Leaf of the Forest
+Just run a simple _find_:
+
+`find . -name "flag"`
+
+The flag is 
+
+`6c0d4a69fdff4ea12609fd1989749dd5`
+
+---
+
+## Worldchat
+Connect to the chat and grep for _flagperson_.
+
+`nv shell2017.picoctf.com 14747 | grep -i flagperson`
+
+The flag is
+
+`ab4b181f3bc927589e0d79a4845a3ace`
+
+---
