@@ -13,6 +13,7 @@ In the HTML form we find
 Decoding the password from base64, and we get the password 
 
 `KN1Z6PXVy9`.
+
 ---
 
 ## Special Agent User
