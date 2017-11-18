@@ -41,3 +41,14 @@ A basic substitution cipher. Perform frequency analysis reveals the flag
 `IFONLYMODERNCRYPTOWASLIKETHIS`
 
 ---
+
+## Hash101
+The first problem is just binary to ascii conversion.
+
+In the second problem we take each letter and convert it into hexadecimal.
+
+The third problem is just the integer value of the above hexadecimal value.
+
+In the fourth problem, we can just search for the MD5 hash online and find its pre-image.
+
+---
