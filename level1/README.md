@@ -183,7 +183,7 @@ The flag is
 ## Worldchat
 Connect to the chat and grep for _flagperson_.
 
-`nv shell2017.picoctf.com 14747 | grep -i flagperson`
+`nc shell2017.picoctf.com 14747 | grep -i flagperson`
 
 The flag is
 
