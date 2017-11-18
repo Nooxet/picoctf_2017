@@ -90,3 +90,14 @@ The flag is
 `54686520666c61672069733ac3aeefde2d8fa0bc81f955314447a348`
 
 ---
+
+# Web Exploitation
+
+## What is Web
+Looking around in the source code for the webpage reveals three parts of the flag:
+
+* In the HTML file: `fab79c49d9e`
+* In the CSS file:  `5ba511a0f24`
+* In the JS file:   `36308e33e85`
+
+---
