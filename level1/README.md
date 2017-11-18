@@ -52,3 +52,17 @@ The third problem is just the integer value of the above hexadecimal value.
 In the fourth problem, we can just search for the MD5 hash online and find its pre-image.
 
 ---
+
+## computeAES
+Just base64 decode the cipher text and key, then run AES to decrypt the text. The flag is
+
+`do_not_let_machines_win_3a0260e6`
+
+---
+
+## computeRSA
+Just calculate the message using
+
+`m = c^d (mod N) = 150815^1941 (mod 435979) = 133337`
+
+---
