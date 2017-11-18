@@ -190,3 +190,12 @@ The flag is
 `ab4b181f3bc927589e0d79a4845a3ace`
 
 ---
+
+# Master Challenge
+Fire up the web console in Chrome and change the javascript to return true.
+
+The flag is
+
+`client_side_is_the_dark_sidea99c64effed2c2f1c9347eff536e949c`
+
+---
