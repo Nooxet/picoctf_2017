@@ -66,3 +66,27 @@ Just calculate the message using
 `m = c^d (mod N) = 150815^1941 (mod 435979) = 133337`
 
 ---
+
+# Reverse Engineering
+
+## Hex2Raw
+Convert the hex string to actual characters using
+
+`echo <hex-string> | xxd -r -p | ./hex2raw`
+
+The flag is
+
+`75d3080d00407fa709c18a6cc69d1edc`
+
+---
+
+## Raw2Hex
+Convert the byte array to a hex string using
+
+`./raw2hex | xxd -p`
+
+The flag is
+
+`54686520666c61672069733ac3aeefde2d8fa0bc81f955314447a348`
+
+---
