@@ -101,3 +101,30 @@ Looking around in the source code for the webpage reveals three parts of the fla
 * In the JS file:   `36308e33e85`
 
 ---
+
+# Binary Exploitation
+
+## Bash Loop
+A simple bash loop to enumerate all possible values:
+
+```
+for i in `seq 0 4096`;
+do
+	./bashloop $i | grep -i y
+done
+```
+
+The flag is
+
+`bcf9ac72d8721c303ae95239c2deacb3`
+
+---
+
+## Just No
+The program is looking at an relative path for the _auth_ file. If we create a directory in our home folder named /problems/_hex-string_ and put an auth file in that directory with any string other than _no_, running the program will reveal the flag.
+
+The flag is 
+
+`08c0c2008f63cd44596dc13be08dd3ac`
+
+---
