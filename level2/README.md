@@ -9,6 +9,11 @@ The flag is
 ---
 
 ## LeakedHashes
+Take one of the hashes, do some Google fu, find the pre-image (no, hashes can *not* be decrypted or decoded...)
+
+The flag is
+
+`18e27fcac2c4b21329e0b118898794c0`
 
 ---
 
