@@ -1,3 +1,14 @@
+# Forensics
+
+## Meta Find Me
+Use som program to find meta data about the image and look for comments and GPS coordinates.
+
+The flag is
+
+`flag_2_meta_4_me_40_124_affa`
+
+---
+
 # Cryptography
 
 ## SoRandom
