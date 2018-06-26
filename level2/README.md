@@ -83,6 +83,8 @@ The flag is
 
 `f6f01bf0649b5aa5ec299bb51c8f8db4`
 
+---
+
 ## Shells
 We need to inject instructions to call the "win()" function. Radare2 tells us that the function
 is located at address `0x08048540`.
@@ -107,3 +109,21 @@ Save the raw bytes to a file, then run
 The flag is
 
 `84f1e856de605076057b0687dfd0865f`
+
+---
+
+## Guess The Number
+So, this is about number representation. Radare2 shows that the "win()" function is 
+located at address `0x0804852b`. The entered number is interpreted in base 10 and later divided
+by 16. That means in order to get the address after division, we need to enter `2152223408`.
+The problem is that `strtol()` returns a signed int. The range for this is `[-2**31, 2**31-1]`,
+so the number entered will overflow. The solution is to enter the corresponding negative number,
+which is
+
+`-2**31 + 2152223408 - (2**31-1) = -2142743887`
+
+The flag is
+
+`d1ec8d4078eac1112548c1a6a00cfe07`
+
+---
